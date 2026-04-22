@@ -62,33 +62,3 @@ def graph_ai():
     plt.show()
 
 
-def menu():
-    while True:
-        print("\n1. all data")
-        print("2.  ")
-        print("3. weak students")
-        print("4. subject stats + top 3")
-        print("5. algebra graph")
-        print("6. python graph")
-        print("7. ai graph")
-        print("0. exit")
-
-        c = input("choose: ")
-
-        if c == "1":
-            show_all()
-        elif c == "2":
-            best_student()
-        elif c == "3":
-            weak_students()
-        elif c == "4":
-            subject_stats()
-        elif c == "5":
-            graph_algebra()
-        elif c == "6":
-            graph_python()
-        elif c == "7":
-            graph_ai()
-        elif c == "0":
-            break
-menu()
