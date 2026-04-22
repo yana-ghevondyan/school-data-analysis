@@ -35,7 +35,7 @@ def subject_stats():
         print(top.to_string(index=False))
 
 
-def graph_algebra():
+def graph_hanr():
     plt.figure(figsize=(10, 5))
     plt.bar(df["name"], df["algebra"])
     plt.xticks(rotation=90)
@@ -53,13 +53,6 @@ def graph_python():
     plt.show()
 
 
-def graph_ai():
-    plt.figure(figsize=(10, 5))
-    plt.bar(df["name"], df["ai"])
-    plt.xticks(rotation=90)
-    plt.title("AI")
-    plt.tight_layout()
-    plt.show()
 
 
 def menu():
