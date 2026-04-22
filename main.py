@@ -65,7 +65,7 @@ def graph_ai():
 def menu():
     while True:
         print("\n1. all data")
-        print("2. best student")
+        print("2.  ")
         print("3. weak students")
         print("4. subject stats + top 3")
         print("5. algebra graph")
