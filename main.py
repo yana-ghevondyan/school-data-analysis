@@ -52,7 +52,9 @@ def graph_python():
     plt.tight_layout()
     plt.show()
 
-
+la la la la la la
+la
+la la la
 
 
 def menu():
