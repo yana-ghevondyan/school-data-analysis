@@ -10,11 +10,14 @@ df["status"] = df["average"].apply(lambda x: "PASS" if x >= 35 else "FAIL")
 
 def show_all():
     print(df)
+
 def best_student():
     best = df.loc[df["average"].idxmax()]
     print(best["name"], best["average"])
+
 def weak_students():
     print(df[df["average"] < 35]["name"].tolist())
+
 def subject_stats():
     for sub in ["algebra", "python", "ai"]:
         print("\n====================")
@@ -85,4 +88,5 @@ def menu():
             graph_ai()
         elif c == "0":
             break
+
 menu()
